@@ -11,6 +11,7 @@ namespace practic
     {
         string a;
         int b;
+        
         List<int> list = new List<int>();
         public void Pole(string s)
         {
@@ -29,9 +30,9 @@ namespace practic
         {
             return a;
         }
-        public string yourNamelist()
+        public int yourNamelist()
         {
-            return;
+            return b;
         }
     }
     

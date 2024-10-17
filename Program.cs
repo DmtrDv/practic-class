@@ -12,7 +12,7 @@ namespace практика_класс
         static void Main()
         {
 
-            int mmm = 1000;
+            int mmm = 100;
             List<first_class> list = new List<first_class>();
             for (int i =0; i < mmm; i++)
             {
@@ -24,17 +24,21 @@ namespace практика_класс
             }
             //string выв = Obj.ConvertInString();
             Console.WriteLine(list[0].ConvertInString());
-            Console.WriteLine(list[100].ConvertInString());
-            Console.WriteLine(list[999].ConvertInString());
+            Console.WriteLine(list[99].ConvertInString());
+            //Console.WriteLine(list[999].ConvertInString());
 
             first_class Nobj = new first_class();
             for (int i = 0; i < mmm; i++)
             {                
                 first_class X = list[i];                
                 string y = X.yourName();
+                int z = X.yourNamelist();
+                Nobj.Dop2El(1, z);
+
+
 
             }
-
+            Console.WriteLine(Nobj.ConvertInString());
 
 
 
